@@ -15,8 +15,8 @@ class __TwigTemplate_a8aca3fba97caa2dd33e2cba854699eae3f9bbadbe8887c7740343a2f40
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_96b00adb0daadec20773d8671a00f270a27f2842af47db0ea83ae939d425ff3d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_96b00adb0daadec20773d8671a00f270a27f2842af47db0ea83ae939d425ff3d->enter($__internal_96b00adb0daadec20773d8671a00f270a27f2842af47db0ea83ae939d425ff3d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:base_js.html.twig"));
+        $__internal_a215731f720587439f3d6a8384ead2311068a2602e2688dc856758764ec05e8c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a215731f720587439f3d6a8384ead2311068a2602e2688dc856758764ec05e8c->enter($__internal_a215731f720587439f3d6a8384ead2311068a2602e2688dc856758764ec05e8c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:base_js.html.twig"));
 
         // line 1
         echo "<script>/*<![CDATA[*/
@@ -488,7 +488,7 @@ class __TwigTemplate_a8aca3fba97caa2dd33e2cba854699eae3f9bbadbe8887c7740343a2f40
 /*]]>*/</script>
 ";
         
-        $__internal_96b00adb0daadec20773d8671a00f270a27f2842af47db0ea83ae939d425ff3d->leave($__internal_96b00adb0daadec20773d8671a00f270a27f2842af47db0ea83ae939d425ff3d_prof);
+        $__internal_a215731f720587439f3d6a8384ead2311068a2602e2688dc856758764ec05e8c->leave($__internal_a215731f720587439f3d6a8384ead2311068a2602e2688dc856758764ec05e8c_prof);
 
     }
 
@@ -965,6 +965,6 @@ class __TwigTemplate_a8aca3fba97caa2dd33e2cba854699eae3f9bbadbe8887c7740343a2f40
     });
 
 /*]]>*/</script>
-", "WebProfilerBundle:Profiler:base_js.html.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/base_js.html.twig");
+", "WebProfilerBundle:Profiler:base_js.html.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/base_js.html.twig");
     }
 }

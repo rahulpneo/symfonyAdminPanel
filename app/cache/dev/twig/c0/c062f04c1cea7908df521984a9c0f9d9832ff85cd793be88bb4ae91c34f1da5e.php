@@ -15,8 +15,8 @@ class __TwigTemplate_4189d42706f9c4b392aef5d725978b672683360e3398f2fa2a0f441ba5f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6f9268463362f18ae0ca68801b8c6d3c4f6e58dbf412b4cf55d856383d0fb794 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6f9268463362f18ae0ca68801b8c6d3c4f6e58dbf412b4cf55d856383d0fb794->enter($__internal_6f9268463362f18ae0ca68801b8c6d3c4f6e58dbf412b4cf55d856383d0fb794_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:login.html.twig"));
+        $__internal_651177bf2f5e57943edc8ad5e33093f46104017566978a521d9ccf5a9bc78ef3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_651177bf2f5e57943edc8ad5e33093f46104017566978a521d9ccf5a9bc78ef3->enter($__internal_651177bf2f5e57943edc8ad5e33093f46104017566978a521d9ccf5a9bc78ef3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:login.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -146,27 +146,11 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--                      <input type=\"hidden\" name=\"_target_path\"  />
  -->                <div class=\"form-actions\">
                     <button type=\"submit\" class=\"btn green uppercase\">Login</button>
-                    <label class=\"rememberme check\">
-                        <input type=\"checkbox\"  id=\"remember_me\" name=\"_remember_me\" value=\"1\" />Remember </label>
+                    <!-- <label class=\"rememberme check\">
+                        <input type=\"checkbox\"  id=\"remember_me\" name=\"_remember_me\" value=\"1\" />Remember </label> -->
                     <a href=\"javascript:;\" id=\"forget-password\" class=\"forget-password\">Forgot Password?</a>
                 </div>
-                <div class=\"login-options\">
-                    <h4>Or login with</h4>
-                    <ul class=\"social-icons\">
-                        <li>
-                            <a class=\"social-icon-color facebook\" data-original-title=\"facebook\" href=\"javascript:;\"></a>
-                        </li>
-                        <li>
-                            <a class=\"social-icon-color twitter\" data-original-title=\"Twitter\" href=\"javascript:;\"></a>
-                        </li>
-                        <li>
-                            <a class=\"social-icon-color googleplus\" data-original-title=\"Goole Plus\" href=\"javascript:;\"></a>
-                        </li>
-                        <li>
-                            <a class=\"social-icon-color linkedin\" data-original-title=\"Linkedin\" href=\"\"></a>
-                        </li>
-                    </ul>
-                </div>
+               
                 <div class=\"create-account\">
                     <p>
                         <a href=\"javascript:;\" id=\"register-btn\" class=\"uppercase\">Create an account</a>
@@ -176,13 +160,13 @@ License: You must have a valid license purchased only from themeforest(the above
             <!-- END LOGIN FORM -->
             <!-- BEGIN FORGOT PASSWORD FORM -->
             ";
-        // line 114
+        // line 98
         echo twig_include($this->env, $context, "AdminBundle:Admin:forgot_password.html.twig");
         echo "
             <!-- END FORGOT PASSWORD FORM -->
             <!-- BEGIN REGISTRATION FORM -->
             ";
-        // line 117
+        // line 101
         echo twig_include($this->env, $context, "AdminBundle:Admin:registration.html.twig");
         echo "
             <!-- END REGISTRATION FORM -->
@@ -190,71 +174,71 @@ License: You must have a valid license purchased only from themeforest(the above
         <div class=\"copyright\"> 2014 © Metronic. Admin Dashboard Template. </div>
         <!--[if lt IE 9]>
 <script src=\"";
-        // line 122
+        // line 106
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/respond.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 123
+        // line 107
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/excanvas.min.js"), "html", null, true);
         echo "\"></script> 
 <![endif]-->
         <!-- BEGIN CORE PLUGINS -->
         <script src=\"";
-        // line 126
+        // line 110
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/jquery.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 127
+        // line 111
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/bootstrap/js/bootstrap.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 128
+        // line 112
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/js.cookie.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 129
+        // line 113
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 130
+        // line 114
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 131
+        // line 115
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/jquery.blockui.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 132
+        // line 116
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/uniform/jquery.uniform.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 133
+        // line 117
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <!-- END CORE PLUGINS -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
         <script src=\"";
-        // line 136
+        // line 120
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/jquery-validation/js/jquery.validate.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 137
+        // line 121
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/jquery-validation/js/additional-methods.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <script src=\"";
-        // line 138
+        // line 122
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/plugins/select2/js/select2.full.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         <script src=\"";
-        // line 141
+        // line 125
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/global/scripts/app.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN PAGE LEVEL SCRIPTS -->
         <script src=\"";
-        // line 144
+        // line 128
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/assets/pages/scripts/login.min.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
         <!-- END PAGE LEVEL SCRIPTS -->
@@ -264,7 +248,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 </html>";
         
-        $__internal_6f9268463362f18ae0ca68801b8c6d3c4f6e58dbf412b4cf55d856383d0fb794->leave($__internal_6f9268463362f18ae0ca68801b8c6d3c4f6e58dbf412b4cf55d856383d0fb794_prof);
+        $__internal_651177bf2f5e57943edc8ad5e33093f46104017566978a521d9ccf5a9bc78ef3->leave($__internal_651177bf2f5e57943edc8ad5e33093f46104017566978a521d9ccf5a9bc78ef3_prof);
 
     }
 
@@ -280,7 +264,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
     public function getDebugInfo()
     {
-        return array (  258 => 144,  252 => 141,  246 => 138,  242 => 137,  238 => 136,  232 => 133,  228 => 132,  224 => 131,  220 => 130,  216 => 129,  212 => 128,  208 => 127,  204 => 126,  198 => 123,  194 => 122,  186 => 117,  180 => 114,  137 => 74,  132 => 71,  126 => 69,  124 => 68,  108 => 55,  94 => 44,  88 => 41,  84 => 40,  78 => 37,  74 => 36,  68 => 33,  64 => 32,  60 => 31,  56 => 30,  52 => 29,  22 => 1,);
+        return array (  242 => 128,  236 => 125,  230 => 122,  226 => 121,  222 => 120,  216 => 117,  212 => 116,  208 => 115,  204 => 114,  200 => 113,  196 => 112,  192 => 111,  188 => 110,  182 => 107,  178 => 106,  170 => 101,  164 => 98,  137 => 74,  132 => 71,  126 => 69,  124 => 68,  108 => 55,  94 => 44,  88 => 41,  84 => 40,  78 => 37,  74 => 36,  68 => 33,  64 => 32,  60 => 31,  56 => 30,  52 => 29,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -377,27 +361,11 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--                      <input type=\"hidden\" name=\"_target_path\"  />
  -->                <div class=\"form-actions\">
                     <button type=\"submit\" class=\"btn green uppercase\">Login</button>
-                    <label class=\"rememberme check\">
-                        <input type=\"checkbox\"  id=\"remember_me\" name=\"_remember_me\" value=\"1\" />Remember </label>
+                    <!-- <label class=\"rememberme check\">
+                        <input type=\"checkbox\"  id=\"remember_me\" name=\"_remember_me\" value=\"1\" />Remember </label> -->
                     <a href=\"javascript:;\" id=\"forget-password\" class=\"forget-password\">Forgot Password?</a>
                 </div>
-                <div class=\"login-options\">
-                    <h4>Or login with</h4>
-                    <ul class=\"social-icons\">
-                        <li>
-                            <a class=\"social-icon-color facebook\" data-original-title=\"facebook\" href=\"javascript:;\"></a>
-                        </li>
-                        <li>
-                            <a class=\"social-icon-color twitter\" data-original-title=\"Twitter\" href=\"javascript:;\"></a>
-                        </li>
-                        <li>
-                            <a class=\"social-icon-color googleplus\" data-original-title=\"Goole Plus\" href=\"javascript:;\"></a>
-                        </li>
-                        <li>
-                            <a class=\"social-icon-color linkedin\" data-original-title=\"Linkedin\" href=\"\"></a>
-                        </li>
-                    </ul>
-                </div>
+               
                 <div class=\"create-account\">
                     <p>
                         <a href=\"javascript:;\" id=\"register-btn\" class=\"uppercase\">Create an account</a>
@@ -442,6 +410,6 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- END THEME LAYOUT SCRIPTS -->
     </body>
 
-</html>", "AdminBundle:Admin:login.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/login.html.twig");
+</html>", "AdminBundle:Admin:login.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/login.html.twig");
     }
 }

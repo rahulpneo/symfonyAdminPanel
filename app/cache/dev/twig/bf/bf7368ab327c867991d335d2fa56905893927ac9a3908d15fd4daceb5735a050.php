@@ -15,14 +15,14 @@ class __TwigTemplate_138ee555861d47b8403d8674d16e672b25d296811f7fb4971dac66e697d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5cf4ec4f7196541465c2dcbdc367bafafac480f0b78ca3296509a3b12a264710 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5cf4ec4f7196541465c2dcbdc367bafafac480f0b78ca3296509a3b12a264710->enter($__internal_5cf4ec4f7196541465c2dcbdc367bafafac480f0b78ca3296509a3b12a264710_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/hidden_widget.html.php"));
+        $__internal_0a10c55d7214dee78ad9012697a96704038e88bd8ed9b72be8f4b8453edb8534 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0a10c55d7214dee78ad9012697a96704038e88bd8ed9b72be8f4b8453edb8534->enter($__internal_0a10c55d7214dee78ad9012697a96704038e88bd8ed9b72be8f4b8453edb8534_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/hidden_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'hidden')) ?>
 ";
         
-        $__internal_5cf4ec4f7196541465c2dcbdc367bafafac480f0b78ca3296509a3b12a264710->leave($__internal_5cf4ec4f7196541465c2dcbdc367bafafac480f0b78ca3296509a3b12a264710_prof);
+        $__internal_0a10c55d7214dee78ad9012697a96704038e88bd8ed9b72be8f4b8453edb8534->leave($__internal_0a10c55d7214dee78ad9012697a96704038e88bd8ed9b72be8f4b8453edb8534_prof);
 
     }
 
@@ -47,6 +47,6 @@ class __TwigTemplate_138ee555861d47b8403d8674d16e672b25d296811f7fb4971dac66e697d
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'hidden')) ?>
-", "@Framework/Form/hidden_widget.html.php", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/hidden_widget.html.php");
+", "@Framework/Form/hidden_widget.html.php", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/hidden_widget.html.php");
     }
 }

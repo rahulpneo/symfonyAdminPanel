@@ -15,8 +15,8 @@ class __TwigTemplate_84a5c6e7481838129ed08749a8d4ecd28ea8e0aa795d6325cda0a10e12c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_94b7383b4fe1949e2d45a59d8f72da5c3bfc9c3dfdf8c584741ba55ccbf90a2a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_94b7383b4fe1949e2d45a59d8f72da5c3bfc9c3dfdf8c584741ba55ccbf90a2a->enter($__internal_94b7383b4fe1949e2d45a59d8f72da5c3bfc9c3dfdf8c584741ba55ccbf90a2a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:table.html.twig"));
+        $__internal_863c0df7866266c290dbdb149a1cb654b4a886891a32b4a9b85f68e2e74497f5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_863c0df7866266c290dbdb149a1cb654b4a886891a32b4a9b85f68e2e74497f5->enter($__internal_863c0df7866266c290dbdb149a1cb654b4a886891a32b4a9b85f68e2e74497f5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:table.html.twig"));
 
         // line 1
         echo "<table class=\"";
@@ -61,7 +61,7 @@ class __TwigTemplate_84a5c6e7481838129ed08749a8d4ecd28ea8e0aa795d6325cda0a10e12c
 </table>
 ";
         
-        $__internal_94b7383b4fe1949e2d45a59d8f72da5c3bfc9c3dfdf8c584741ba55ccbf90a2a->leave($__internal_94b7383b4fe1949e2d45a59d8f72da5c3bfc9c3dfdf8c584741ba55ccbf90a2a_prof);
+        $__internal_863c0df7866266c290dbdb149a1cb654b4a886891a32b4a9b85f68e2e74497f5->leave($__internal_863c0df7866266c290dbdb149a1cb654b4a886891a32b4a9b85f68e2e74497f5_prof);
 
     }
 
@@ -106,6 +106,6 @@ class __TwigTemplate_84a5c6e7481838129ed08749a8d4ecd28ea8e0aa795d6325cda0a10e12c
         {% endfor %}
     </tbody>
 </table>
-", "WebProfilerBundle:Profiler:table.html.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/table.html.twig");
+", "WebProfilerBundle:Profiler:table.html.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/table.html.twig");
     }
 }

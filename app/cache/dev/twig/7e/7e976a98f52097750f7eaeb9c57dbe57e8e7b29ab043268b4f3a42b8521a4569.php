@@ -15,8 +15,8 @@ class __TwigTemplate_b43dda08c25b46f15480a16fa1d6c6f1658050f80976400e5b58a447b3b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_695985ed2c78f7827cb59c760f707de4f95745c757b5cadd5f422269d652f19a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_695985ed2c78f7827cb59c760f707de4f95745c757b5cadd5f422269d652f19a->enter($__internal_695985ed2c78f7827cb59c760f707de4f95745c757b5cadd5f422269d652f19a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/router.svg"));
+        $__internal_ba2c0f0ca258aad159e60d695c45f9f31c55e36a359d0981726969b38597ded6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ba2c0f0ca258aad159e60d695c45f9f31c55e36a359d0981726969b38597ded6->enter($__internal_ba2c0f0ca258aad159e60d695c45f9f31c55e36a359d0981726969b38597ded6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/router.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -27,7 +27,7 @@ class __TwigTemplate_b43dda08c25b46f15480a16fa1d6c6f1658050f80976400e5b58a447b3b
 </svg>
 ";
         
-        $__internal_695985ed2c78f7827cb59c760f707de4f95745c757b5cadd5f422269d652f19a->leave($__internal_695985ed2c78f7827cb59c760f707de4f95745c757b5cadd5f422269d652f19a_prof);
+        $__internal_ba2c0f0ca258aad159e60d695c45f9f31c55e36a359d0981726969b38597ded6->leave($__internal_ba2c0f0ca258aad159e60d695c45f9f31c55e36a359d0981726969b38597ded6_prof);
 
     }
 
@@ -57,6 +57,6 @@ class __TwigTemplate_b43dda08c25b46f15480a16fa1d6c6f1658050f80976400e5b58a447b3b
     C19.2,9.1,18.8,9,18.4,9h-0.3H14v2.6V14h4.1h0.3c0.4,0,0.8-0.1,1.1-0.3l1.8-1.5c0.4-0.3,0.4-0.9,0-1.3L19.5,9.4z M3.5,7
     C3.1,7,2.8,7,2.5,7.3L0.7,8.8c-0.4,0.3-0.4,0.9,0,1.3l1.8,1.6C2.8,11.9,3.1,12,3.5,12h0.3H8V9.4V7H3.9H3.5z\"/>
 </svg>
-", "@WebProfiler/Icon/router.svg", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/router.svg");
+", "@WebProfiler/Icon/router.svg", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/router.svg");
     }
 }

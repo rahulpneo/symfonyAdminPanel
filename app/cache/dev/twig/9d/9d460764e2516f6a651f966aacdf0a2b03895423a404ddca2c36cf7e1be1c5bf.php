@@ -15,8 +15,8 @@ class __TwigTemplate_3d5e648d667e415a2c67d9c2b4692fa9c3976ded42b4bb2c1803152aa0b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_343b67b2e94e21812b0b0d7e8c93e296e91e3162b39f2cce388535438a07e106 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_343b67b2e94e21812b0b0d7e8c93e296e91e3162b39f2cce388535438a07e106->enter($__internal_343b67b2e94e21812b0b0d7e8c93e296e91e3162b39f2cce388535438a07e106_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:footer.html.twig"));
+        $__internal_96fdfb7ae0cbef94ac26e3cb2a6789197daca5e73f0a27eebe0f9bfb72f65878 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_96fdfb7ae0cbef94ac26e3cb2a6789197daca5e73f0a27eebe0f9bfb72f65878->enter($__internal_96fdfb7ae0cbef94ac26e3cb2a6789197daca5e73f0a27eebe0f9bfb72f65878_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:footer.html.twig"));
 
         // line 1
         echo "<div class=\"page-footer\">
@@ -30,7 +30,7 @@ class __TwigTemplate_3d5e648d667e415a2c67d9c2b4692fa9c3976ded42b4bb2c1803152aa0b
     </div>
 </div>";
         
-        $__internal_343b67b2e94e21812b0b0d7e8c93e296e91e3162b39f2cce388535438a07e106->leave($__internal_343b67b2e94e21812b0b0d7e8c93e296e91e3162b39f2cce388535438a07e106_prof);
+        $__internal_96fdfb7ae0cbef94ac26e3cb2a6789197daca5e73f0a27eebe0f9bfb72f65878->leave($__internal_96fdfb7ae0cbef94ac26e3cb2a6789197daca5e73f0a27eebe0f9bfb72f65878_prof);
 
     }
 
@@ -63,6 +63,6 @@ class __TwigTemplate_3d5e648d667e415a2c67d9c2b4692fa9c3976ded42b4bb2c1803152aa0b
         <i class=\"fa fa-angle-up\"></i>
         </span>
     </div>
-</div>", "AdminBundle:Admin/Layout:footer.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/Layout/footer.html.twig");
+</div>", "AdminBundle:Admin/Layout:footer.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/Layout/footer.html.twig");
     }
 }

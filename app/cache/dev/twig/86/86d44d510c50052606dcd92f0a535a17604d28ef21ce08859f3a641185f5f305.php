@@ -15,8 +15,8 @@ class __TwigTemplate_f9f8497a74bfa9a6dccbf46c5da4a8f4eefc0b5ec5861c09cd14ffc94b7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_13cc8e8250fdb71bf36560ffc69adf035f01f9130fa18bf811f00cc5030ec863 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_13cc8e8250fdb71bf36560ffc69adf035f01f9130fa18bf811f00cc5030ec863->enter($__internal_13cc8e8250fdb71bf36560ffc69adf035f01f9130fa18bf811f00cc5030ec863_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.css.twig"));
+        $__internal_305576ca7b338247dc9988f5cc106962050f1b6945853ce934e7808378bdd7de = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_305576ca7b338247dc9988f5cc106962050f1b6945853ce934e7808378bdd7de->enter($__internal_305576ca7b338247dc9988f5cc106962050f1b6945853ce934e7808378bdd7de_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.css.twig"));
 
         // line 1
         echo "/*
@@ -27,7 +27,7 @@ class __TwigTemplate_f9f8497a74bfa9a6dccbf46c5da4a8f4eefc0b5ec5861c09cd14ffc94b7
         echo "*/
 ";
         
-        $__internal_13cc8e8250fdb71bf36560ffc69adf035f01f9130fa18bf811f00cc5030ec863->leave($__internal_13cc8e8250fdb71bf36560ffc69adf035f01f9130fa18bf811f00cc5030ec863_prof);
+        $__internal_305576ca7b338247dc9988f5cc106962050f1b6945853ce934e7808378bdd7de->leave($__internal_305576ca7b338247dc9988f5cc106962050f1b6945853ce934e7808378bdd7de_prof);
 
     }
 
@@ -59,6 +59,6 @@ class __TwigTemplate_f9f8497a74bfa9a6dccbf46c5da4a8f4eefc0b5ec5861c09cd14ffc94b7
         return new Twig_Source("/*
 {% include '@Twig/Exception/exception.txt.twig' with { 'exception': exception } %}
 */
-", "TwigBundle:Exception:exception.css.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.css.twig");
+", "TwigBundle:Exception:exception.css.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.css.twig");
     }
 }

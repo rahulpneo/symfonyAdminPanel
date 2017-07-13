@@ -15,8 +15,8 @@ class __TwigTemplate_bb7d714a32e64c5bc87837ee89c9feab9ec2a84535ceb91508a7497397f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4fa67ca0e5b7f2dace6c891ffcbf82ad2e47797af2fd8ed7c3c611f63749d02a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4fa67ca0e5b7f2dace6c891ffcbf82ad2e47797af2fd8ed7c3c611f63749d02a->enter($__internal_4fa67ca0e5b7f2dace6c891ffcbf82ad2e47797af2fd8ed7c3c611f63749d02a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:header.html.twig"));
+        $__internal_95d3816c77034e77e15b501d1eb58eb1e08a9cba214c32f3c655daaa0490ecca = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_95d3816c77034e77e15b501d1eb58eb1e08a9cba214c32f3c655daaa0490ecca->enter($__internal_95d3816c77034e77e15b501d1eb58eb1e08a9cba214c32f3c655daaa0490ecca_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:header.html.twig"));
 
         // line 1
         echo "   <div class=\"page-header navbar navbar-fixed-top\">
@@ -88,7 +88,7 @@ class __TwigTemplate_bb7d714a32e64c5bc87837ee89c9feab9ec2a84535ceb91508a7497397f
     </div>
    ";
         
-        $__internal_4fa67ca0e5b7f2dace6c891ffcbf82ad2e47797af2fd8ed7c3c611f63749d02a->leave($__internal_4fa67ca0e5b7f2dace6c891ffcbf82ad2e47797af2fd8ed7c3c611f63749d02a_prof);
+        $__internal_95d3816c77034e77e15b501d1eb58eb1e08a9cba214c32f3c655daaa0490ecca->leave($__internal_95d3816c77034e77e15b501d1eb58eb1e08a9cba214c32f3c655daaa0490ecca_prof);
 
     }
 
@@ -175,6 +175,6 @@ class __TwigTemplate_bb7d714a32e64c5bc87837ee89c9feab9ec2a84535ceb91508a7497397f
         </div>
         <!-- END HEADER INNER -->
     </div>
-   ", "AdminBundle:Admin/Layout:header.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/Layout/header.html.twig");
+   ", "AdminBundle:Admin/Layout:header.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/Layout/header.html.twig");
     }
 }

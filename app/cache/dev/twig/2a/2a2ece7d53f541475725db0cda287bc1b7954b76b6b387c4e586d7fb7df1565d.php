@@ -15,8 +15,8 @@ class __TwigTemplate_23f7ef355df143c2e49633f763362624403cfb5747b15c2cfbc881961ad
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fca5f841ea6ba2ce44cd05902fb51be3b179107c5416ada9975bdf53bc2054a9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fca5f841ea6ba2ce44cd05902fb51be3b179107c5416ada9975bdf53bc2054a9->enter($__internal_fca5f841ea6ba2ce44cd05902fb51be3b179107c5416ada9975bdf53bc2054a9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.html.twig"));
+        $__internal_30663b948492f722a09c8bd5b2d692d99e0e36a911788df82256be1facace871 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_30663b948492f722a09c8bd5b2d692d99e0e36a911788df82256be1facace871->enter($__internal_30663b948492f722a09c8bd5b2d692d99e0e36a911788df82256be1facace871_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.html.twig"));
 
         // line 1
         if ($this->getAttribute((isset($context["trace"]) ? $context["trace"] : $this->getContext($context, "trace")), "function", array())) {
@@ -93,7 +93,7 @@ class __TwigTemplate_23f7ef355df143c2e49633f763362624403cfb5747b15c2cfbc881961ad
 ";
         }
         
-        $__internal_fca5f841ea6ba2ce44cd05902fb51be3b179107c5416ada9975bdf53bc2054a9->leave($__internal_fca5f841ea6ba2ce44cd05902fb51be3b179107c5416ada9975bdf53bc2054a9_prof);
+        $__internal_30663b948492f722a09c8bd5b2d692d99e0e36a911788df82256be1facace871->leave($__internal_30663b948492f722a09c8bd5b2d692d99e0e36a911788df82256be1facace871_prof);
 
     }
 
@@ -144,6 +144,6 @@ class __TwigTemplate_23f7ef355df143c2e49633f763362624403cfb5747b15c2cfbc881961ad
         {{ trace.file|file_excerpt(trace.line) }}
     </div>
 {% endif %}
-", "TwigBundle:Exception:trace.html.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.html.twig");
+", "TwigBundle:Exception:trace.html.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.html.twig");
     }
 }

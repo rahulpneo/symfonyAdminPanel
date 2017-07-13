@@ -15,8 +15,8 @@ class __TwigTemplate_6c2ba8148fa4026c6e0dfb77e86a98ff32f2d22b89f2551c59d55e8e281
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_36d22e8b6139ededf793ef79d8b869e631a2bb2a02aab0d597ad964a526840e4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_36d22e8b6139ededf793ef79d8b869e631a2bb2a02aab0d597ad964a526840e4->enter($__internal_36d22e8b6139ededf793ef79d8b869e631a2bb2a02aab0d597ad964a526840e4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/search.svg"));
+        $__internal_933bdd8e303f4308b38bd9050ad87bbc27034f59098173069436e9cd734cc351 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_933bdd8e303f4308b38bd9050ad87bbc27034f59098173069436e9cd734cc351->enter($__internal_933bdd8e303f4308b38bd9050ad87bbc27034f59098173069436e9cd734cc351_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/search.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -28,7 +28,7 @@ class __TwigTemplate_6c2ba8148fa4026c6e0dfb77e86a98ff32f2d22b89f2551c59d55e8e281
 </svg>
 ";
         
-        $__internal_36d22e8b6139ededf793ef79d8b869e631a2bb2a02aab0d597ad964a526840e4->leave($__internal_36d22e8b6139ededf793ef79d8b869e631a2bb2a02aab0d597ad964a526840e4_prof);
+        $__internal_933bdd8e303f4308b38bd9050ad87bbc27034f59098173069436e9cd734cc351->leave($__internal_933bdd8e303f4308b38bd9050ad87bbc27034f59098173069436e9cd734cc351_prof);
 
     }
 
@@ -59,6 +59,6 @@ class __TwigTemplate_6c2ba8148fa4026c6e0dfb77e86a98ff32f2d22b89f2551c59d55e8e281
         S16.01,0.357,11.61,0.357z M17.07,8.337c0,3.011-2.449,5.46-5.46,5.46c-3.011,0-5.46-2.449-5.46-5.46s2.449-5.46,5.46-5.46
         C14.62,2.877,17.07,5.326,17.07,8.337z\"/>
 </svg>
-", "@WebProfiler/Icon/search.svg", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/search.svg");
+", "@WebProfiler/Icon/search.svg", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/search.svg");
     }
 }

@@ -21,20 +21,20 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5554bb51588c4ee9c91a0161fe97893a11efb9c6d1f66f4fe1fb2fc30f7e523b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5554bb51588c4ee9c91a0161fe97893a11efb9c6d1f66f4fe1fb2fc30f7e523b->enter($__internal_5554bb51588c4ee9c91a0161fe97893a11efb9c6d1f66f4fe1fb2fc30f7e523b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:config_setting.html.twig"));
+        $__internal_943cfbfc8b9e1a4c7ec157c6161343081bf0164ad364bab4b2cbf2775ebfa72f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_943cfbfc8b9e1a4c7ec157c6161343081bf0164ad364bab4b2cbf2775ebfa72f->enter($__internal_943cfbfc8b9e1a4c7ec157c6161343081bf0164ad364bab4b2cbf2775ebfa72f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:config_setting.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_5554bb51588c4ee9c91a0161fe97893a11efb9c6d1f66f4fe1fb2fc30f7e523b->leave($__internal_5554bb51588c4ee9c91a0161fe97893a11efb9c6d1f66f4fe1fb2fc30f7e523b_prof);
+        $__internal_943cfbfc8b9e1a4c7ec157c6161343081bf0164ad364bab4b2cbf2775ebfa72f->leave($__internal_943cfbfc8b9e1a4c7ec157c6161343081bf0164ad364bab4b2cbf2775ebfa72f_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_85edf0cc6653653b260ab509a5a92be785f6493b5469e13e7651b422a1af0c72 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_85edf0cc6653653b260ab509a5a92be785f6493b5469e13e7651b422a1af0c72->enter($__internal_85edf0cc6653653b260ab509a5a92be785f6493b5469e13e7651b422a1af0c72_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_dc4e73ef475e3b12e9a493ab033c9b2038c5fbe7e1efabe008f4d7659451ba46 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_dc4e73ef475e3b12e9a493ab033c9b2038c5fbe7e1efabe008f4d7659451ba46->enter($__internal_dc4e73ef475e3b12e9a493ab033c9b2038c5fbe7e1efabe008f4d7659451ba46_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<div class=\"page-content-wrapper\">
@@ -43,7 +43,6 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                     <!-- BEGIN PAGE HEADER-->
                     <!-- BEGIN THEME PANEL -->
                     <div class=\"theme-panel hidden-xs hidden-sm\">
-                        <div class=\"toggler\"> </div>
                         <div class=\"toggler-close\"> </div>
                         <div class=\"theme-options\">
                             <div class=\"theme-option theme-colors clearfix\">
@@ -163,9 +162,7 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                     </div>
                     <!-- END PAGE BAR -->
                     <!-- BEGIN PAGE TITLE-->
-                    <h3 class=\"page-title\"> New User Profile | Account
-                        <small>user account page</small>
-                    </h3>
+                    
                     <!-- END PAGE TITLE-->
                     <!-- END PAGE HEADER-->
                     <div class=\"row\">
@@ -185,7 +182,7 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                                                         <a href=\"#tab_1_1\" data-toggle=\"tab\">Personal Info</a>
                                                     </li>
                                                     <li>
-                                                        <a href=\"#tab_1_2\" data-toggle=\"tab\">Change Avatar</a>
+                                                        <a href=\"#tab_1_2\" data-toggle=\"tab\">Change Profile Picture</a>
                                                     </li>
                                                     <li>
                                                         <a href=\"#tab_1_3\" data-toggle=\"tab\">Change Password</a>
@@ -359,7 +356,7 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
             </div>
             ";
         
-        $__internal_85edf0cc6653653b260ab509a5a92be785f6493b5469e13e7651b422a1af0c72->leave($__internal_85edf0cc6653653b260ab509a5a92be785f6493b5469e13e7651b422a1af0c72_prof);
+        $__internal_dc4e73ef475e3b12e9a493ab033c9b2038c5fbe7e1efabe008f4d7659451ba46->leave($__internal_dc4e73ef475e3b12e9a493ab033c9b2038c5fbe7e1efabe008f4d7659451ba46_prof);
 
     }
 
@@ -396,7 +393,6 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                     <!-- BEGIN PAGE HEADER-->
                     <!-- BEGIN THEME PANEL -->
                     <div class=\"theme-panel hidden-xs hidden-sm\">
-                        <div class=\"toggler\"> </div>
                         <div class=\"toggler-close\"> </div>
                         <div class=\"theme-options\">
                             <div class=\"theme-option theme-colors clearfix\">
@@ -516,9 +512,7 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                     </div>
                     <!-- END PAGE BAR -->
                     <!-- BEGIN PAGE TITLE-->
-                    <h3 class=\"page-title\"> New User Profile | Account
-                        <small>user account page</small>
-                    </h3>
+                    
                     <!-- END PAGE TITLE-->
                     <!-- END PAGE HEADER-->
                     <div class=\"row\">
@@ -538,7 +532,7 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                                                         <a href=\"#tab_1_1\" data-toggle=\"tab\">Personal Info</a>
                                                     </li>
                                                     <li>
-                                                        <a href=\"#tab_1_2\" data-toggle=\"tab\">Change Avatar</a>
+                                                        <a href=\"#tab_1_2\" data-toggle=\"tab\">Change Profile Picture</a>
                                                     </li>
                                                     <li>
                                                         <a href=\"#tab_1_3\" data-toggle=\"tab\">Change Password</a>
@@ -710,6 +704,6 @@ class __TwigTemplate_1c11f993654fa22953fc0beefab20c7c2bf86500ba6e02d38d6a07abc13
                 </div>
                 <!-- END CONTENT BODY -->
             </div>
-            {% endblock %}", "AdminBundle:Admin:config_setting.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/config_setting.html.twig");
+            {% endblock %}", "AdminBundle:Admin:config_setting.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/config_setting.html.twig");
     }
 }

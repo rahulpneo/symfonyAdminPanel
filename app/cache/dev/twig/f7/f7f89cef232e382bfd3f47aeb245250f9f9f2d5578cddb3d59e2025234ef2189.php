@@ -15,8 +15,8 @@ class __TwigTemplate_c3c37d1b8b95285a77f17ac03115da0c349fa139101080743891c0a970b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f5f2c87e17a39ec1f1f275f04c67f886d5fcda3c9072f6f2da7bd2fa8e743c75 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f5f2c87e17a39ec1f1f275f04c67f886d5fcda3c9072f6f2da7bd2fa8e743c75->enter($__internal_f5f2c87e17a39ec1f1f275f04c67f886d5fcda3c9072f6f2da7bd2fa8e743c75_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
+        $__internal_ef8e26ce1a98f695aeb27b025522bd27460f9997e2cf73a36e91f5fc0bae808f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ef8e26ce1a98f695aeb27b025522bd27460f9997e2cf73a36e91f5fc0bae808f->enter($__internal_ef8e26ce1a98f695aeb27b025522bd27460f9997e2cf73a36e91f5fc0bae808f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -27,7 +27,7 @@ class __TwigTemplate_c3c37d1b8b95285a77f17ac03115da0c349fa139101080743891c0a970b
 </svg>
 ";
         
-        $__internal_f5f2c87e17a39ec1f1f275f04c67f886d5fcda3c9072f6f2da7bd2fa8e743c75->leave($__internal_f5f2c87e17a39ec1f1f275f04c67f886d5fcda3c9072f6f2da7bd2fa8e743c75_prof);
+        $__internal_ef8e26ce1a98f695aeb27b025522bd27460f9997e2cf73a36e91f5fc0bae808f->leave($__internal_ef8e26ce1a98f695aeb27b025522bd27460f9997e2cf73a36e91f5fc0bae808f_prof);
 
     }
 
@@ -57,6 +57,6 @@ class __TwigTemplate_c3c37d1b8b95285a77f17ac03115da0c349fa139101080743891c0a970b
     c-0.4,0.5-0.1,1,0.5,1H17v10.6c0,0.4-0.7,0.4-1.2,0.4h-3.9c-1.1,0-2,0.9-2,2s0.9,2,2,2h3.9c2.6,0,5.2-1.8,5.2-4.4V7h1.5
     C23.1,7,23.4,6.5,23,6z\"/>
 </svg>
-", "@WebProfiler/Icon/ajax.svg", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/ajax.svg");
+", "@WebProfiler/Icon/ajax.svg", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/ajax.svg");
     }
 }

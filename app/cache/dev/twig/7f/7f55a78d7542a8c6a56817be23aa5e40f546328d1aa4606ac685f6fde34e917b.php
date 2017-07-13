@@ -15,8 +15,8 @@ class __TwigTemplate_bdbd3972bb8dd575f86731c71093f7b9fcb7c410c2f57e601cbf0579228
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a0708d4ffcef7e231e70ea57cd755ebf5cd21a1ab3846b5f2f4e35a320286a57 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a0708d4ffcef7e231e70ea57cd755ebf5cd21a1ab3846b5f2f4e35a320286a57->enter($__internal_a0708d4ffcef7e231e70ea57cd755ebf5cd21a1ab3846b5f2f4e35a320286a57_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:sidebar.html.twig"));
+        $__internal_a0232d40fc3faf318c67e01520842acf62da16fce82e86a38b8f08cc2d99a4bf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a0232d40fc3faf318c67e01520842acf62da16fce82e86a38b8f08cc2d99a4bf->enter($__internal_a0232d40fc3faf318c67e01520842acf62da16fce82e86a38b8f08cc2d99a4bf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:sidebar.html.twig"));
 
         // line 1
         echo "
@@ -243,7 +243,7 @@ class __TwigTemplate_bdbd3972bb8dd575f86731c71093f7b9fcb7c410c2f57e601cbf0579228
     </div>
   ";
         
-        $__internal_a0708d4ffcef7e231e70ea57cd755ebf5cd21a1ab3846b5f2f4e35a320286a57->leave($__internal_a0708d4ffcef7e231e70ea57cd755ebf5cd21a1ab3846b5f2f4e35a320286a57_prof);
+        $__internal_a0232d40fc3faf318c67e01520842acf62da16fce82e86a38b8f08cc2d99a4bf->leave($__internal_a0232d40fc3faf318c67e01520842acf62da16fce82e86a38b8f08cc2d99a4bf_prof);
 
     }
 
@@ -489,6 +489,6 @@ class __TwigTemplate_bdbd3972bb8dd575f86731c71093f7b9fcb7c410c2f57e601cbf0579228
             <!-- END SIDEBAR MENU -->
         </div>
     </div>
-  ", "AdminBundle:Admin/Layout:sidebar.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/Layout/sidebar.html.twig");
+  ", "AdminBundle:Admin/Layout:sidebar.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/Layout/sidebar.html.twig");
     }
 }

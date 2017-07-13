@@ -15,8 +15,8 @@ class __TwigTemplate_f4602c689378114c16487a0711401b968845de1730bf71f9c7fb6dd16b0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_9bd02b68032470ec3bc9d7011eb4d254ec37d736ba01647888e0e29d9bafb0fe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9bd02b68032470ec3bc9d7011eb4d254ec37d736ba01647888e0e29d9bafb0fe->enter($__internal_9bd02b68032470ec3bc9d7011eb4d254ec37d736ba01647888e0e29d9bafb0fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
+        $__internal_4e319342d1fecfa9f5556a6cae2e747ae76ed335635085e595dfefccc562e6a6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4e319342d1fecfa9f5556a6cae2e747ae76ed335635085e595dfefccc562e6a6->enter($__internal_4e319342d1fecfa9f5556a6cae2e747ae76ed335635085e595dfefccc562e6a6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -26,7 +26,7 @@ class __TwigTemplate_f4602c689378114c16487a0711401b968845de1730bf71f9c7fb6dd16b0
 </svg>
 ";
         
-        $__internal_9bd02b68032470ec3bc9d7011eb4d254ec37d736ba01647888e0e29d9bafb0fe->leave($__internal_9bd02b68032470ec3bc9d7011eb4d254ec37d736ba01647888e0e29d9bafb0fe_prof);
+        $__internal_4e319342d1fecfa9f5556a6cae2e747ae76ed335635085e595dfefccc562e6a6->leave($__internal_4e319342d1fecfa9f5556a6cae2e747ae76ed335635085e595dfefccc562e6a6_prof);
 
     }
 
@@ -55,6 +55,6 @@ class __TwigTemplate_f4602c689378114c16487a0711401b968845de1730bf71f9c7fb6dd16b0
     C23,2.3,21.7,1,20.1,1z M21,20.1c0,0.5-0.4,0.9-0.9,0.9H3.9C3.4,21,3,20.6,3,20.1V3.9C3,3.4,3.4,3,3.9,3h16.3C20.6,3,21,3.4,21,3.9
     V20.1z M5,5h14v3H5V5z M5,10h3v9H5V10z M10,10h9v9h-9V10z\"/>
 </svg>
-", "@WebProfiler/Icon/twig.svg", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/twig.svg");
+", "@WebProfiler/Icon/twig.svg", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/twig.svg");
     }
 }

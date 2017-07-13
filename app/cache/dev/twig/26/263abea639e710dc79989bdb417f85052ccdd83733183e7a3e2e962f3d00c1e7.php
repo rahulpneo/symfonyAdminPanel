@@ -15,8 +15,8 @@ class __TwigTemplate_c9a318b6939ae150a9851abd6ff1a3b9f36e76a55151d4ccff78d264de1
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_76ca4ebcc999f5b222b23b87b2effcc459b788f4b965e772133f2c780eef1963 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_76ca4ebcc999f5b222b23b87b2effcc459b788f4b965e772133f2c780eef1963->enter($__internal_76ca4ebcc999f5b222b23b87b2effcc459b788f4b965e772133f2c780eef1963_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:forgot_password.html.twig"));
+        $__internal_21fd671e5f879bbafc3ada250e16a80737ba77c79c57225f07f35cc9c2ccd22a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_21fd671e5f879bbafc3ada250e16a80737ba77c79c57225f07f35cc9c2ccd22a->enter($__internal_21fd671e5f879bbafc3ada250e16a80737ba77c79c57225f07f35cc9c2ccd22a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:forgot_password.html.twig"));
 
         // line 1
         echo "<form class=\"forget-form\" action=\"/admin/forget_password\" method=\"post\">
@@ -30,7 +30,7 @@ class __TwigTemplate_c9a318b6939ae150a9851abd6ff1a3b9f36e76a55151d4ccff78d264de1
                 </div>
         </form>";
         
-        $__internal_76ca4ebcc999f5b222b23b87b2effcc459b788f4b965e772133f2c780eef1963->leave($__internal_76ca4ebcc999f5b222b23b87b2effcc459b788f4b965e772133f2c780eef1963_prof);
+        $__internal_21fd671e5f879bbafc3ada250e16a80737ba77c79c57225f07f35cc9c2ccd22a->leave($__internal_21fd671e5f879bbafc3ada250e16a80737ba77c79c57225f07f35cc9c2ccd22a_prof);
 
     }
 
@@ -63,6 +63,6 @@ class __TwigTemplate_c9a318b6939ae150a9851abd6ff1a3b9f36e76a55151d4ccff78d264de1
                     <button type=\"button\" id=\"back-btn\" class=\"btn btn-default\">Back</button>
                     <button type=\"submit\" class=\"btn btn-success uppercase pull-right\">Submit</button>
                 </div>
-        </form>", "AdminBundle:Admin:forgot_password.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/forgot_password.html.twig");
+        </form>", "AdminBundle:Admin:forgot_password.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/forgot_password.html.twig");
     }
 }

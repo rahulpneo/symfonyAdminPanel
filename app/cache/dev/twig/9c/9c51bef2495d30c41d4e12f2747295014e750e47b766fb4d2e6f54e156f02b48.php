@@ -15,8 +15,8 @@ class __TwigTemplate_f8dd115a9c8356be472de805c4e67430890c033b0e72872f5d5e5b5173a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_972fb4d9cdad9b9fe366cedb3b4c073ae2ff31e1da9c67ad94222118c8cf3194 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_972fb4d9cdad9b9fe366cedb3b4c073ae2ff31e1da9c67ad94222118c8cf3194->enter($__internal_972fb4d9cdad9b9fe366cedb3b4c073ae2ff31e1da9c67ad94222118c8cf3194_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:quick_sidebar.html.twig"));
+        $__internal_a40739b28273d3d844d3c7a0a7b1aa5c71f6503adb635d8a01442f4ff76dd390 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a40739b28273d3d844d3c7a0a7b1aa5c71f6503adb635d8a01442f4ff76dd390->enter($__internal_a40739b28273d3d844d3c7a0a7b1aa5c71f6503adb635d8a01442f4ff76dd390_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:quick_sidebar.html.twig"));
 
         // line 1
         echo "    
@@ -728,7 +728,7 @@ class __TwigTemplate_f8dd115a9c8356be472de805c4e67430890c033b0e72872f5d5e5b5173a
     </div>
     ";
         
-        $__internal_972fb4d9cdad9b9fe366cedb3b4c073ae2ff31e1da9c67ad94222118c8cf3194->leave($__internal_972fb4d9cdad9b9fe366cedb3b4c073ae2ff31e1da9c67ad94222118c8cf3194_prof);
+        $__internal_a40739b28273d3d844d3c7a0a7b1aa5c71f6503adb635d8a01442f4ff76dd390->leave($__internal_a40739b28273d3d844d3c7a0a7b1aa5c71f6503adb635d8a01442f4ff76dd390_prof);
 
     }
 
@@ -1407,6 +1407,6 @@ class __TwigTemplate_f8dd115a9c8356be472de805c4e67430890c033b0e72872f5d5e5b5173a
             </div>
         </div>
     </div>
-    ", "AdminBundle:Admin/Layout:quick_sidebar.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/Layout/quick_sidebar.html.twig");
+    ", "AdminBundle:Admin/Layout:quick_sidebar.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/Layout/quick_sidebar.html.twig");
     }
 }

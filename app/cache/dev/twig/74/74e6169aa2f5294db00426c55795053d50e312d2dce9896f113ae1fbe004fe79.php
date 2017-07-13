@@ -15,8 +15,8 @@ class __TwigTemplate_f711af1451c3b68bb22af794cc4d3d18e4f912ea15d10f57dfec2f16d7d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_07f7a20dd752482846da4ecd3a4587bbc68a3b8d2b0495aebab5b63334da5a9d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_07f7a20dd752482846da4ecd3a4587bbc68a3b8d2b0495aebab5b63334da5a9d->enter($__internal_07f7a20dd752482846da4ecd3a4587bbc68a3b8d2b0495aebab5b63334da5a9d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SensioDistributionBundle:Configurator:steps.html.twig"));
+        $__internal_8ab3970c3b1936f6b813234d7e20aff0e1b357911dd41c2934b7301b469947e7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8ab3970c3b1936f6b813234d7e20aff0e1b357911dd41c2934b7301b469947e7->enter($__internal_8ab3970c3b1936f6b813234d7e20aff0e1b357911dd41c2934b7301b469947e7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SensioDistributionBundle:Configurator:steps.html.twig"));
 
         // line 1
         echo "<div class=\"symfony-block-steps\">
@@ -61,7 +61,7 @@ class __TwigTemplate_f711af1451c3b68bb22af794cc4d3d18e4f912ea15d10f57dfec2f16d7d
         echo "</div>
 ";
         
-        $__internal_07f7a20dd752482846da4ecd3a4587bbc68a3b8d2b0495aebab5b63334da5a9d->leave($__internal_07f7a20dd752482846da4ecd3a4587bbc68a3b8d2b0495aebab5b63334da5a9d_prof);
+        $__internal_8ab3970c3b1936f6b813234d7e20aff0e1b357911dd41c2934b7301b469947e7->leave($__internal_8ab3970c3b1936f6b813234d7e20aff0e1b357911dd41c2934b7301b469947e7_prof);
 
     }
 
@@ -104,6 +104,6 @@ class __TwigTemplate_f711af1451c3b68bb22af794cc4d3d18e4f912ea15d10f57dfec2f16d7d
       {% endif %}
     {% endfor %}
 </div>
-", "SensioDistributionBundle:Configurator:steps.html.twig", "/var/www/html/symfonyAdminPanel/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/steps.html.twig");
+", "SensioDistributionBundle:Configurator:steps.html.twig", "/var/www/html/symfonyAdminPanel--/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/steps.html.twig");
     }
 }

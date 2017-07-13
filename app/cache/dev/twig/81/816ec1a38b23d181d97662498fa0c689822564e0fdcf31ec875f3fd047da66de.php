@@ -15,8 +15,8 @@ class __TwigTemplate_5c7c0321444bebbcde41dc9d16123c82946f01625ae5683e7530d5d0f6d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ee202959def468d52a09b2049b876a7fdd764ae963386a6e52ce95e0095140bc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ee202959def468d52a09b2049b876a7fdd764ae963386a6e52ce95e0095140bc->enter($__internal_ee202959def468d52a09b2049b876a7fdd764ae963386a6e52ce95e0095140bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "DoctrineBundle:Collector:explain.html.twig"));
+        $__internal_506f5ab7c8b806f67eab16c32c379efd3dca83cf67264012c26fa1a4f7c7051b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_506f5ab7c8b806f67eab16c32c379efd3dca83cf67264012c26fa1a4f7c7051b->enter($__internal_506f5ab7c8b806f67eab16c32c379efd3dca83cf67264012c26fa1a4f7c7051b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "DoctrineBundle:Collector:explain.html.twig"));
 
         // line 1
         if ((twig_length_filter($this->env, $this->getAttribute((isset($context["data"]) ? $context["data"] : $this->getContext($context, "data")), 0, array(), "array")) > 1)) {
@@ -98,7 +98,7 @@ class __TwigTemplate_5c7c0321444bebbcde41dc9d16123c82946f01625ae5683e7530d5d0f6d
 ";
         }
         
-        $__internal_ee202959def468d52a09b2049b876a7fdd764ae963386a6e52ce95e0095140bc->leave($__internal_ee202959def468d52a09b2049b876a7fdd764ae963386a6e52ce95e0095140bc_prof);
+        $__internal_506f5ab7c8b806f67eab16c32c379efd3dca83cf67264012c26fa1a4f7c7051b->leave($__internal_506f5ab7c8b806f67eab16c32c379efd3dca83cf67264012c26fa1a4f7c7051b_prof);
 
     }
 
@@ -155,6 +155,6 @@ class __TwigTemplate_5c7c0321444bebbcde41dc9d16123c82946f01625ae5683e7530d5d0f6d
         {%- endfor -%}
     </pre>
 {% endif %}
-", "DoctrineBundle:Collector:explain.html.twig", "/var/www/html/symfonyAdminPanel/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "DoctrineBundle:Collector:explain.html.twig", "/var/www/html/symfonyAdminPanel--/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

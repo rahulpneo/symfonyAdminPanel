@@ -15,8 +15,8 @@ class __TwigTemplate_84e46bc794062a7740bc3ec5e095d311ab03fe06342f8b3653610cdc9b1
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4fcf35b467c06220a536acae892d5e6f51bf7dd226671e1d6d1126fec71a45ab = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4fcf35b467c06220a536acae892d5e6f51bf7dd226671e1d6d1126fec71a45ab->enter($__internal_4fcf35b467c06220a536acae892d5e6f51bf7dd226671e1d6d1126fec71a45ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:include_top.html.twig"));
+        $__internal_22a4869841deaa3e0e370eed53afcc47075453c44600cba184393ff60a5fadd4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_22a4869841deaa3e0e370eed53afcc47075453c44600cba184393ff60a5fadd4->enter($__internal_22a4869841deaa3e0e370eed53afcc47075453c44600cba184393ff60a5fadd4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:include_top.html.twig"));
 
         // line 1
         echo " <meta charset=\"utf-8\" />
@@ -109,7 +109,7 @@ class __TwigTemplate_84e46bc794062a7740bc3ec5e095d311ab03fe06342f8b3653610cdc9b1
         <!-- END THEME LAYOUT STYLES -->
         <link rel=\"shortcut icon\" href=\"favicon.ico\" />";
         
-        $__internal_4fcf35b467c06220a536acae892d5e6f51bf7dd226671e1d6d1126fec71a45ab->leave($__internal_4fcf35b467c06220a536acae892d5e6f51bf7dd226671e1d6d1126fec71a45ab_prof);
+        $__internal_22a4869841deaa3e0e370eed53afcc47075453c44600cba184393ff60a5fadd4->leave($__internal_22a4869841deaa3e0e370eed53afcc47075453c44600cba184393ff60a5fadd4_prof);
 
     }
 
@@ -175,6 +175,6 @@ class __TwigTemplate_84e46bc794062a7740bc3ec5e095d311ab03fe06342f8b3653610cdc9b1
         <link href=\"{{ asset('bundles/assets/layouts/layout/css/themes/darkblue.min.css')}}\" rel=\"stylesheet\" type=\"text/css\" id=\"style_color\" />
         <link href=\"{{ asset('bundles/assets/layouts/layout/css/custom.min.css')}}\" rel=\"stylesheet\" type=\"text/css\" />
         <!-- END THEME LAYOUT STYLES -->
-        <link rel=\"shortcut icon\" href=\"favicon.ico\" />", "AdminBundle:Admin/Layout:include_top.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/Layout/include_top.html.twig");
+        <link rel=\"shortcut icon\" href=\"favicon.ico\" />", "AdminBundle:Admin/Layout:include_top.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/Layout/include_top.html.twig");
     }
 }

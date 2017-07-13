@@ -15,8 +15,8 @@ class __TwigTemplate_cf1d925c5c4962dd66ade143cd6459992fa0d9ae940c015bb486f91c39e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8623115603b8768fb832c8cc0c69d3158bbab30f2cf26750033a31046b251c8e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8623115603b8768fb832c8cc0c69d3158bbab30f2cf26750033a31046b251c8e->enter($__internal_8623115603b8768fb832c8cc0c69d3158bbab30f2cf26750033a31046b251c8e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:registration.html.twig"));
+        $__internal_2f830e3fd1426b007f6c55155bd900a60b01d3c163d7c4e3f4134683ed77b7f0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2f830e3fd1426b007f6c55155bd900a60b01d3c163d7c4e3f4134683ed77b7f0->enter($__internal_2f830e3fd1426b007f6c55155bd900a60b01d3c163d7c4e3f4134683ed77b7f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin:registration.html.twig"));
 
         // line 1
         echo "<form class=\"register-form\" action=\"registration\" method=\"post\">
@@ -304,7 +304,7 @@ class __TwigTemplate_cf1d925c5c4962dd66ade143cd6459992fa0d9ae940c015bb486f91c39e
                 </div>
             </form>";
         
-        $__internal_8623115603b8768fb832c8cc0c69d3158bbab30f2cf26750033a31046b251c8e->leave($__internal_8623115603b8768fb832c8cc0c69d3158bbab30f2cf26750033a31046b251c8e_prof);
+        $__internal_2f830e3fd1426b007f6c55155bd900a60b01d3c163d7c4e3f4134683ed77b7f0->leave($__internal_2f830e3fd1426b007f6c55155bd900a60b01d3c163d7c4e3f4134683ed77b7f0_prof);
 
     }
 
@@ -613,6 +613,6 @@ class __TwigTemplate_cf1d925c5c4962dd66ade143cd6459992fa0d9ae940c015bb486f91c39e
                     <button type=\"button\" id=\"register-back-btn\" class=\"btn btn-default\">Back</button>
                     <button type=\"submit\" id=\"register-submit-btn\" class=\"btn btn-success uppercase pull-right\">Submit</button>
                 </div>
-            </form>", "AdminBundle:Admin:registration.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/registration.html.twig");
+            </form>", "AdminBundle:Admin:registration.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/registration.html.twig");
     }
 }

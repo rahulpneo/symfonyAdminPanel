@@ -15,8 +15,8 @@ class __TwigTemplate_cbb4bd7459a4489358943badcf3798a53e78dd09e9a62928488cea9a435
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c100a1a7b20457fb204e2dfb214be4b8e77f3a62cc258f27f880e2532ea047c9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c100a1a7b20457fb204e2dfb214be4b8e77f3a62cc258f27f880e2532ea047c9->enter($__internal_c100a1a7b20457fb204e2dfb214be4b8e77f3a62cc258f27f880e2532ea047c9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:search.html.twig"));
+        $__internal_6a2c054650ee0f855511bfd33f23741f654816e976701689c743de8444abb0e6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6a2c054650ee0f855511bfd33f23741f654816e976701689c743de8444abb0e6->enter($__internal_6a2c054650ee0f855511bfd33f23741f654816e976701689c743de8444abb0e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:search.html.twig"));
 
         // line 1
         echo "<div id=\"sidebar-search\" class=\"hidden\">
@@ -118,7 +118,7 @@ class __TwigTemplate_cbb4bd7459a4489358943badcf3798a53e78dd09e9a62928488cea9a435
 </div>
 ";
         
-        $__internal_c100a1a7b20457fb204e2dfb214be4b8e77f3a62cc258f27f880e2532ea047c9->leave($__internal_c100a1a7b20457fb204e2dfb214be4b8e77f3a62cc258f27f880e2532ea047c9_prof);
+        $__internal_6a2c054650ee0f855511bfd33f23741f654816e976701689c743de8444abb0e6->leave($__internal_6a2c054650ee0f855511bfd33f23741f654816e976701689c743de8444abb0e6_prof);
 
     }
 
@@ -198,6 +198,6 @@ class __TwigTemplate_cbb4bd7459a4489358943badcf3798a53e78dd09e9a62928488cea9a435
         </div>
     </form>
 </div>
-", "WebProfilerBundle:Profiler:search.html.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/search.html.twig");
+", "WebProfilerBundle:Profiler:search.html.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/search.html.twig");
     }
 }

@@ -15,14 +15,14 @@ class __TwigTemplate_23f0f9e322d1b552312ae0074e40b832abfb080df1cd5b2557dafb9e0b0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_60a66a880115e3ab954273084475218074bd54913b36d6b41e3383092199c566 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_60a66a880115e3ab954273084475218074bd54913b36d6b41e3383092199c566->enter($__internal_60a66a880115e3ab954273084475218074bd54913b36d6b41e3383092199c566_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_widget_simple.html.php"));
+        $__internal_f788bd6eb7ce9a8981bfaf5ed2a5a0280e66146bf271098bbdc93e41a78649ff = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f788bd6eb7ce9a8981bfaf5ed2a5a0280e66146bf271098bbdc93e41a78649ff->enter($__internal_f788bd6eb7ce9a8981bfaf5ed2a5a0280e66146bf271098bbdc93e41a78649ff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_widget_simple.html.php"));
 
         // line 1
         echo "<input type=\"<?php echo isset(\$type) ? \$view->escape(\$type) : 'text' ?>\" <?php echo \$view['form']->block(\$form, 'widget_attributes') ?><?php if (!empty(\$value) || is_numeric(\$value)): ?> value=\"<?php echo \$view->escape(\$value) ?>\"<?php endif ?> />
 ";
         
-        $__internal_60a66a880115e3ab954273084475218074bd54913b36d6b41e3383092199c566->leave($__internal_60a66a880115e3ab954273084475218074bd54913b36d6b41e3383092199c566_prof);
+        $__internal_f788bd6eb7ce9a8981bfaf5ed2a5a0280e66146bf271098bbdc93e41a78649ff->leave($__internal_f788bd6eb7ce9a8981bfaf5ed2a5a0280e66146bf271098bbdc93e41a78649ff_prof);
 
     }
 
@@ -47,6 +47,6 @@ class __TwigTemplate_23f0f9e322d1b552312ae0074e40b832abfb080df1cd5b2557dafb9e0b0
     public function getSourceContext()
     {
         return new Twig_Source("<input type=\"<?php echo isset(\$type) ? \$view->escape(\$type) : 'text' ?>\" <?php echo \$view['form']->block(\$form, 'widget_attributes') ?><?php if (!empty(\$value) || is_numeric(\$value)): ?> value=\"<?php echo \$view->escape(\$value) ?>\"<?php endif ?> />
-", "@Framework/Form/form_widget_simple.html.php", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_widget_simple.html.php");
+", "@Framework/Form/form_widget_simple.html.php", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_widget_simple.html.php");
     }
 }

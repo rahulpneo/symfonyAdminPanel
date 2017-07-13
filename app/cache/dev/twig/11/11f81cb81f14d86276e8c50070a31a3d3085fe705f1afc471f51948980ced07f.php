@@ -15,8 +15,8 @@ class __TwigTemplate_02ca2549d5034e7ac02495593b39d1185ac0cece04cacce5567132b5d2f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0dfd8db39c493b64fb09d3560187f77d0d8d333ae89a06d15296bfedf60ca00e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0dfd8db39c493b64fb09d3560187f77d0d8d333ae89a06d15296bfedf60ca00e->enter($__internal_0dfd8db39c493b64fb09d3560187f77d0d8d333ae89a06d15296bfedf60ca00e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/close.svg"));
+        $__internal_21971f881569d1d8a9e80fefcd8907be5d879b1742c43a95b23718b9925e0923 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_21971f881569d1d8a9e80fefcd8907be5d879b1742c43a95b23718b9925e0923->enter($__internal_21971f881569d1d8a9e80fefcd8907be5d879b1742c43a95b23718b9925e0923_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/close.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -26,7 +26,7 @@ class __TwigTemplate_02ca2549d5034e7ac02495593b39d1185ac0cece04cacce5567132b5d2f
 </svg>
 ";
         
-        $__internal_0dfd8db39c493b64fb09d3560187f77d0d8d333ae89a06d15296bfedf60ca00e->leave($__internal_0dfd8db39c493b64fb09d3560187f77d0d8d333ae89a06d15296bfedf60ca00e_prof);
+        $__internal_21971f881569d1d8a9e80fefcd8907be5d879b1742c43a95b23718b9925e0923->leave($__internal_21971f881569d1d8a9e80fefcd8907be5d879b1742c43a95b23718b9925e0923_prof);
 
     }
 
@@ -55,6 +55,6 @@ class __TwigTemplate_02ca2549d5034e7ac02495593b39d1185ac0cece04cacce5567132b5d2f
     c-0.4,0.4-0.9,0.6-1.4,0.6s-1-0.2-1.4-0.6c-0.8-0.8-0.8-2,0-2.8L9.2,12L2.9,5.7c-0.8-0.8-0.8-2,0-2.8c0.8-0.8,2-0.8,2.8,0L12,9.2
     l6.3-6.3c0.8-0.8,2-0.8,2.8,0c0.8,0.8,0.8,2,0,2.8L14.8,12L21.1,18.3z\"/>
 </svg>
-", "@WebProfiler/Icon/close.svg", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/close.svg");
+", "@WebProfiler/Icon/close.svg", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/close.svg");
     }
 }

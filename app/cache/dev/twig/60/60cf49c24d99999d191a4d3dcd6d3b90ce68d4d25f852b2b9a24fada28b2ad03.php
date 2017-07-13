@@ -15,8 +15,8 @@ class __TwigTemplate_984439ced127bdf5b276b80319b9861fac5520681acc4271f00afd672e2
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_cef586b24222653bdf272825ecb42a12eee269b09783e24a0b55777722688155 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cef586b24222653bdf272825ecb42a12eee269b09783e24a0b55777722688155->enter($__internal_cef586b24222653bdf272825ecb42a12eee269b09783e24a0b55777722688155_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:include_bottom.html.twig"));
+        $__internal_b1b00e1d0a93a41a837130d1c7d7fd9ece41ebefd37c73285245e37481b81334 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b1b00e1d0a93a41a837130d1c7d7fd9ece41ebefd37c73285245e37481b81334->enter($__internal_b1b00e1d0a93a41a837130d1c7d7fd9ece41ebefd37c73285245e37481b81334_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:Admin/Layout:include_bottom.html.twig"));
 
         // line 1
         echo "<script src=\"";
@@ -269,7 +269,7 @@ class __TwigTemplate_984439ced127bdf5b276b80319b9861fac5520681acc4271f00afd672e2
         
         <!-- END THEME LAYOUT SCRIPTS -->";
         
-        $__internal_cef586b24222653bdf272825ecb42a12eee269b09783e24a0b55777722688155->leave($__internal_cef586b24222653bdf272825ecb42a12eee269b09783e24a0b55777722688155_prof);
+        $__internal_b1b00e1d0a93a41a837130d1c7d7fd9ece41ebefd37c73285245e37481b81334->leave($__internal_b1b00e1d0a93a41a837130d1c7d7fd9ece41ebefd37c73285245e37481b81334_prof);
 
     }
 
@@ -407,6 +407,6 @@ class __TwigTemplate_984439ced127bdf5b276b80319b9861fac5520681acc4271f00afd672e2
 
         <script src=\"{{ asset('bundles/assets/global/scripts/notify.js')}}\" type=\"text/javascript\"></script>
         
-        <!-- END THEME LAYOUT SCRIPTS -->", "AdminBundle:Admin/Layout:include_bottom.html.twig", "/var/www/html/symfonyAdminPanel/src/AdminBundle/Resources/views/Admin/Layout/include_bottom.html.twig");
+        <!-- END THEME LAYOUT SCRIPTS -->", "AdminBundle:Admin/Layout:include_bottom.html.twig", "/var/www/html/symfonyAdminPanel--/src/AdminBundle/Resources/views/Admin/Layout/include_bottom.html.twig");
     }
 }

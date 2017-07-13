@@ -15,14 +15,14 @@ class __TwigTemplate_fdb1419ba6a613951b1c9c6d275babb8f50abc7f5e9ab0bb074a554465b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_05dc870e1b93feb9aa10886add563bfb95732ed95fcf29d7ba058ae2691614c0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_05dc870e1b93feb9aa10886add563bfb95732ed95fcf29d7ba058ae2691614c0->enter($__internal_05dc870e1b93feb9aa10886add563bfb95732ed95fcf29d7ba058ae2691614c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/percent_widget.html.php"));
+        $__internal_9bc94d114f3b518849b2624144ef2d96c773ff7ceb93dff58f6567d9b3620108 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9bc94d114f3b518849b2624144ef2d96c773ff7ceb93dff58f6567d9b3620108->enter($__internal_9bc94d114f3b518849b2624144ef2d96c773ff7ceb93dff58f6567d9b3620108_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/percent_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'text')) ?> %
 ";
         
-        $__internal_05dc870e1b93feb9aa10886add563bfb95732ed95fcf29d7ba058ae2691614c0->leave($__internal_05dc870e1b93feb9aa10886add563bfb95732ed95fcf29d7ba058ae2691614c0_prof);
+        $__internal_9bc94d114f3b518849b2624144ef2d96c773ff7ceb93dff58f6567d9b3620108->leave($__internal_9bc94d114f3b518849b2624144ef2d96c773ff7ceb93dff58f6567d9b3620108_prof);
 
     }
 
@@ -47,6 +47,6 @@ class __TwigTemplate_fdb1419ba6a613951b1c9c6d275babb8f50abc7f5e9ab0bb074a554465b
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'text')) ?> %
-", "@Framework/Form/percent_widget.html.php", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/percent_widget.html.php");
+", "@Framework/Form/percent_widget.html.php", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/percent_widget.html.php");
     }
 }

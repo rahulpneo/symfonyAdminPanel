@@ -15,8 +15,8 @@ class __TwigTemplate_46fe5917b01f105453b513b78d2046ca0f4f32f331d4c3f28a7e6567979
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ddb492509c342490ad81bb85a27ba8d00c53a35907b70015f7b18b37c680dd6f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ddb492509c342490ad81bb85a27ba8d00c53a35907b70015f7b18b37c680dd6f->enter($__internal_ddb492509c342490ad81bb85a27ba8d00c53a35907b70015f7b18b37c680dd6f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/exception.svg"));
+        $__internal_49c5b9d1245891c293698a817612625d7f26657f6b23f548d7414a840533c734 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_49c5b9d1245891c293698a817612625d7f26657f6b23f548d7414a840533c734->enter($__internal_49c5b9d1245891c293698a817612625d7f26657f6b23f548d7414a840533c734_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/exception.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -36,7 +36,7 @@ class __TwigTemplate_46fe5917b01f105453b513b78d2046ca0f4f32f331d4c3f28a7e6567979
 </svg>
 ";
         
-        $__internal_ddb492509c342490ad81bb85a27ba8d00c53a35907b70015f7b18b37c680dd6f->leave($__internal_ddb492509c342490ad81bb85a27ba8d00c53a35907b70015f7b18b37c680dd6f_prof);
+        $__internal_49c5b9d1245891c293698a817612625d7f26657f6b23f548d7414a840533c734->leave($__internal_49c5b9d1245891c293698a817612625d7f26657f6b23f548d7414a840533c734_prof);
 
     }
 
@@ -75,6 +75,6 @@ class __TwigTemplate_46fe5917b01f105453b513b78d2046ca0f4f32f331d4c3f28a7e6567979
     c-0.6,0-1.2,0.5-1.2,1.2c0,0.6,0.5,1.2,1.1,1.2c0,0,0,0,0,0c-1.3,0-2.3-1.2-2.3-2.6c0-1.5,1-2.5,2.3-2.5c1.3,0,2.3,1.1,2.3,2.5
     C17.1,9.8,16.2,10.9,15,11z\"/>
 </svg>
-", "@WebProfiler/Icon/exception.svg", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/exception.svg");
+", "@WebProfiler/Icon/exception.svg", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/exception.svg");
     }
 }

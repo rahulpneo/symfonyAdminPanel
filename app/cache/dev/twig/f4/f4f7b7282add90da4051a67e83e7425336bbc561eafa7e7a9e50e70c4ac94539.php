@@ -15,15 +15,15 @@ class __TwigTemplate_5157fbe822120306dd35e8ae0f4a04e09da03c430b942cd179424674700
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d2f3c158a82d41dfc6d1b94a41fe7965ca31db549fb1716fd6f3715eb17bbf4a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d2f3c158a82d41dfc6d1b94a41fe7965ca31db549fb1716fd6f3715eb17bbf4a->enter($__internal_d2f3c158a82d41dfc6d1b94a41fe7965ca31db549fb1716fd6f3715eb17bbf4a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.json.twig"));
+        $__internal_cc548d93145a6c78dfad8c2d7d883e00ead6424340808875e66977cdcd183026 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cc548d93145a6c78dfad8c2d7d883e00ead6424340808875e66977cdcd183026->enter($__internal_cc548d93145a6c78dfad8c2d7d883e00ead6424340808875e66977cdcd183026_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.json.twig"));
 
         // line 1
         echo twig_jsonencode_filter(array("error" => array("code" => (isset($context["status_code"]) ? $context["status_code"] : $this->getContext($context, "status_code")), "message" => (isset($context["status_text"]) ? $context["status_text"] : $this->getContext($context, "status_text")))));
         echo "
 ";
         
-        $__internal_d2f3c158a82d41dfc6d1b94a41fe7965ca31db549fb1716fd6f3715eb17bbf4a->leave($__internal_d2f3c158a82d41dfc6d1b94a41fe7965ca31db549fb1716fd6f3715eb17bbf4a_prof);
+        $__internal_cc548d93145a6c78dfad8c2d7d883e00ead6424340808875e66977cdcd183026->leave($__internal_cc548d93145a6c78dfad8c2d7d883e00ead6424340808875e66977cdcd183026_prof);
 
     }
 
@@ -53,6 +53,6 @@ class __TwigTemplate_5157fbe822120306dd35e8ae0f4a04e09da03c430b942cd179424674700
     public function getSourceContext()
     {
         return new Twig_Source("{{ { 'error': { 'code': status_code, 'message': status_text } }|json_encode|raw }}
-", "TwigBundle:Exception:error.json.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.json.twig");
+", "TwigBundle:Exception:error.json.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.json.twig");
     }
 }

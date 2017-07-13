@@ -15,8 +15,8 @@ class __TwigTemplate_81a67d68c622d7f9fb48b8261962a25c8dbcc121b9c607bdf290d9a826f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2eb381868613e45e9f107211baa348371534683a6a8dedbda370a4e8acfa7dbb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2eb381868613e45e9f107211baa348371534683a6a8dedbda370a4e8acfa7dbb->enter($__internal_2eb381868613e45e9f107211baa348371534683a6a8dedbda370a4e8acfa7dbb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.css.twig"));
+        $__internal_343a4a2d739efac7585eb617e74ba735b622c21c34c9b8b6aa406cbecfbd0f3a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_343a4a2d739efac7585eb617e74ba735b622c21c34c9b8b6aa406cbecfbd0f3a->enter($__internal_343a4a2d739efac7585eb617e74ba735b622c21c34c9b8b6aa406cbecfbd0f3a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.css.twig"));
 
         // line 1
         echo "/*
@@ -30,7 +30,7 @@ class __TwigTemplate_81a67d68c622d7f9fb48b8261962a25c8dbcc121b9c607bdf290d9a826f
 */
 ";
         
-        $__internal_2eb381868613e45e9f107211baa348371534683a6a8dedbda370a4e8acfa7dbb->leave($__internal_2eb381868613e45e9f107211baa348371534683a6a8dedbda370a4e8acfa7dbb_prof);
+        $__internal_343a4a2d739efac7585eb617e74ba735b622c21c34c9b8b6aa406cbecfbd0f3a->leave($__internal_343a4a2d739efac7585eb617e74ba735b622c21c34c9b8b6aa406cbecfbd0f3a_prof);
 
     }
 
@@ -63,6 +63,6 @@ class __TwigTemplate_81a67d68c622d7f9fb48b8261962a25c8dbcc121b9c607bdf290d9a826f
 {{ status_code }} {{ status_text }}
 
 */
-", "TwigBundle:Exception:error.css.twig", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.css.twig");
+", "TwigBundle:Exception:error.css.twig", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.css.twig");
     }
 }

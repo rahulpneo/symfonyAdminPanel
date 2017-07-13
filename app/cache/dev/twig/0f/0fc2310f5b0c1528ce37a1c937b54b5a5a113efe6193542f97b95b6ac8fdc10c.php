@@ -15,14 +15,14 @@ class __TwigTemplate_44de748c8818ed7256dd979c3eb9ca60f3d48cf112aa4508b21dc40b5f5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6df94dbfd9054f518a91bf35d750cd46f5d29db3e8e68405392883681bf579c0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6df94dbfd9054f518a91bf35d750cd46f5d29db3e8e68405392883681bf579c0->enter($__internal_6df94dbfd9054f518a91bf35d750cd46f5d29db3e8e68405392883681bf579c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/container_attributes.html.php"));
+        $__internal_909b8d29cd46cfb327be5ebe49c3adf41ba2f754fbc5ddc5bce973e5afdc32ec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_909b8d29cd46cfb327be5ebe49c3adf41ba2f754fbc5ddc5bce973e5afdc32ec->enter($__internal_909b8d29cd46cfb327be5ebe49c3adf41ba2f754fbc5ddc5bce973e5afdc32ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/container_attributes.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'widget_container_attributes') ?>
 ";
         
-        $__internal_6df94dbfd9054f518a91bf35d750cd46f5d29db3e8e68405392883681bf579c0->leave($__internal_6df94dbfd9054f518a91bf35d750cd46f5d29db3e8e68405392883681bf579c0_prof);
+        $__internal_909b8d29cd46cfb327be5ebe49c3adf41ba2f754fbc5ddc5bce973e5afdc32ec->leave($__internal_909b8d29cd46cfb327be5ebe49c3adf41ba2f754fbc5ddc5bce973e5afdc32ec_prof);
 
     }
 
@@ -47,6 +47,6 @@ class __TwigTemplate_44de748c8818ed7256dd979c3eb9ca60f3d48cf112aa4508b21dc40b5f5
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->block(\$form, 'widget_container_attributes') ?>
-", "@Framework/Form/container_attributes.html.php", "/var/www/html/symfonyAdminPanel/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/container_attributes.html.php");
+", "@Framework/Form/container_attributes.html.php", "/var/www/html/symfonyAdminPanel--/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/container_attributes.html.php");
     }
 }

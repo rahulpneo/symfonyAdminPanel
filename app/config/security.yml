@@ -1,0 +1,72 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/security.html
+security:
+
+    # http://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    encoders:
+        AdminBundle\Entity\User:
+            algorithm: bcrypt
+            iterations: 1
+
+    acl:
+        connection: default
+                
+    providers:
+        in_memory:
+            memory: 
+                users:
+                    user:
+                        password: userpass
+                        roles: 'ROLE_USER'
+                    admin:
+                        password: adminpass
+                        roles: 'ROLE_ADMIN'        
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            anonymous: ~
+            # activate different ways to authenticate
+
+            # http://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
+            http_basic: ~
+
+            # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+            #form_login: ~
+
+            # form_login:
+            #     # the user is redirected here when they need to log in     
+            #     # login_path: /login
+
+            #     # submit the login form here    
+            #     # check_path: /login_check
+
+            #     # username_parameter: _username
+            #     # password_parameter: _password
+
+            #     # csrf token options
+            #     csrf_parameter:       _csrf_token
+            #     csrf_token_id:        authenticate
+            #     #srf_token_generator: my.csrf_token_generator.id
+
+            #     # by default, the login form *must* be a POST, not a GET
+            #     post_only:      true
+            #     remember_me:    false
+
+            #     # login success redirecting options (read further below)
+            #     # always_use_default_target_path: false
+            #     # default_target_path:            /
+            #     # target_path_parameter:          _target_path
+            #     # use_referer:
+
+            #     # login failure redirecting options (read further below)
+            #     failure_path:    /login
+            #     failure_forward: false
+            #     failure_path_parameter: _failure_path
+
+    access_control:
+            # require ROLE_ADMIN for /admin*
+        - { path: ^/admin1, roles: ROLE_ADMIN }

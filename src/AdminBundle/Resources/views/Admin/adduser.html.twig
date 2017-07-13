@@ -1,0 +1,217 @@
+{% extends 'AdminBundle:Admin/Layout:layout.html.twig'%}
+{% block content %}
+<div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div style="min-height:1548px" class="page-content">
+                    <!-- BEGIN PAGE HEADER-->
+                    <!-- BEGIN THEME PANEL -->
+                    
+                    <!-- END THEME PANEL -->
+                    <!-- BEGIN PAGE BAR -->
+                    <div class="page-bar">
+                        <ul class="page-breadcrumb">
+                            <li>
+                                <a href="index.html">Home</a>
+                                <i class="fa fa-circle"></i>
+                            </li>
+                            <li>
+                                <span>Form Stuff</span>
+                            </li>
+                        </ul>
+                        <div class="page-toolbar">
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn green btn-sm btn-outline dropdown-toggle" data-toggle="dropdown"> Actions
+                                    <i class="fa fa-angle-down"></i>
+                                </button>
+                                <ul class="dropdown-menu pull-right" role="menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-bell"></i> Action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-shield"></i> Another action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-user"></i> Something else here</a>
+                                    </li>
+                                    <li class="divider"> </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-bag"></i> Separated link</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PAGE BAR -->
+                    <!-- BEGIN PAGE TITLE-->
+                   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN VALIDATION STATES-->
+                          
+                            <!-- END VALIDATION STATES-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN VALIDATION STATES-->
+                            <div class="portlet light portlet-fit portlet-form bordered">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        <i class="icon-settings font-red"></i>
+                                        <span class="caption-subject font-red sbold uppercase">Basic Validation   
+                                                                                  
+                                        </span>
+                                    </div>
+                                    <div class="actions">
+                                        <div class="btn-group btn-group-devided" data-toggle="buttons">
+                                            <label class="btn btn-transparent red btn-outline btn-circle btn-sm active">
+                                                <input name="options" class="toggle" id="option1" type="radio">Actions</label>
+                                            <label class="btn btn-transparent red btn-outline btn-circle btn-sm">
+                                                <input name="options" class="toggle" id="option2" type="radio">Settings</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portlet-body">
+                                    <!-- BEGIN FORM-->
+                                    
+                                        
+
+                                    <form novalidate="novalidate" method="post" action="/add" id="form_sample_1" class="form-horizontal">
+                                        <div class="form-body">
+                                            <div class="alert alert-danger display-hide">
+                                                <button class="close" data-close="alert"></button> You have some form errors. Please check below. </div>
+                                            <div class="alert alert-success display-hide">
+                                                <button class="close" data-close="alert"></button> Your form validation is successful! </div>
+                                                
+                                                <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}" >
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">FullName
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="fullname" data-required="1" class="form-control" type="text" value=""> </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Email
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="email" class="form-control" type="text" value=""> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Address
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="address" data-required="1" class="form-control" type="text" value=""> </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">City/Town
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="city" data-required="1" class="form-control" type="text" value=""> </div>
+                                            </div>                                                                     
+                                            
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Country
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <select class="form-control" name="country" value="">
+                                                        <option value="">Select...</option>
+                                                        <option value="HK">Hong Kong</option>
+                                                        <option value="HU">Hungary</option>
+                                                        <option value="IS">Iceland</option>
+                                                        <option value="IN">India</option>
+                                                        <option value="ID">Indonesia</option>
+                                                        <option value="IR">Iran (Islamic Republic of)</option>
+                                                        <option value="IQ">Iraq</option>
+                                                        <option value="IE">Ireland</option>
+                                                        <option value="IL">Israel</option>
+                                                        <option value="IT">Italy</option>
+                                                        <option value="JM">Jamaica</option>
+                                                        <option value="JP">Japan</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Role
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <select class="form-control" name="role" value="">
+                                                        <option value="">Select...</option>
+                                                        <option value="1">admin</option>
+                                                        <option value="2">approver</option>
+                                                        <option value="3">editor</option>
+                                                        <option value="4">user</option>
+                                                      
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Username
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="username" data-required="1" class="form-control" type="text" value=""> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Password
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="password" data-required="1" class="form-control" type="password"> </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-3">Re-type Password
+                                                    <span aria-required="true" class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-4">
+                                                    <input name="rpassword" data-required="1" class="form-control" type="password"> </div>
+                                            </div>                                           
+                                            
+                                        </div>
+                                        <div class="form-actions">
+                                            <div class="row">
+                                                <div class="col-md-offset-3 col-md-9">
+                                                    <button type="submit" class="btn green">Submit</button>
+
+                                                    <a href="/admin/user" class="btn grey-salsa btn-outline" role="button">Cancel </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                  
+                                    <!-- END FORM-->
+                                </div>
+                            </div>
+                            <!-- END VALIDATION STATES-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN VALIDATION STATES-->
+                           
+                            <!-- END VALIDATION STATES-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN VALIDATION STATES-->
+                            
+                                <!-- END VALIDATION STATES-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+{% endblock %}

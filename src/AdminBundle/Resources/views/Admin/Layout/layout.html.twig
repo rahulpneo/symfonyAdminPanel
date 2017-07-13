@@ -1,0 +1,28 @@
+{% extends 'AdminBundle::base.html.twig'%}
+{% block stylesheets %}
+{{ include('AdminBundle:Admin/Layout:include_top.html.twig') }}
+{% endblock %}
+
+{% block header %}
+{{ include('AdminBundle:Admin/Layout:header.html.twig') }}
+{% endblock %}
+
+{% block sidebar %}
+{{ include('AdminBundle:Admin/Layout:sidebar.html.twig') }}
+{% endblock %}
+
+{% block content %}
+{{ include('AdminBundle:Admin/Layout:content.html.twig') }}
+{% endblock %}
+
+{% block quicksidebar %}
+{{ include('AdminBundle:Admin/Layout:quick_sidebar.html.twig') }}
+{% endblock %}
+
+{% block footer %}
+{{ include('AdminBundle:Admin/Layout:footer.html.twig') }}
+{% endblock %}
+
+{% block js %}
+{{ include('AdminBundle:Admin/Layout:include_bottom.html.twig') }}
+{% endblock %}

@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: localhost
+    database_port: null
+    database_name: sfadmin
+    database_user: root
+    database_password: root
+    mailer_transport: smtp
+    mailer_host: smtp.wwindia.com
+    mailer_user: rahul.p@wwindia.com
+    mailer_password: rahulp123
+    mailer_port: 587
+    mailer_encryption: tls
+    secret: ThisTokenIsNotSoSecretChangeIt
